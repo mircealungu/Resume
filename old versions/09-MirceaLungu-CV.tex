@@ -1,0 +1,267 @@
+ %\documentstyle[11pt]{article}
+\documentclass{article}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0,0,0.5}
+
+\usepackage{hyperref}
+\hypersetup{ colorlinks, urlcolor=darkblue}
+
+%\setlength{\paperheight}{11in}
+\setlength{\textheight}{10in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textwidth}{6in}
+\setlength{\oddsidemargin}{-0.5in}
+%\setlength{\evensidemargin}{0.5in}
+
+%\pagenumbering{plain}
+
+%-------------- define commands and counters ----------------------------------
+\renewcommand{\baselinestretch}{1.}
+\newcommand{\hs}{\hspace*}
+\newcommand{\vs}{\vspace*{2mm}}
+\newcommand{\dis}{\displaystyle}
+\newcommand{\no}{\noindent}
+\newcommand{\ns}{\vspace{6pt}\noindent}
+ 
+%------------------------ my commands ----------------------------------------
+\newcommand{\cvsectionname}[1]{\multicolumn{2}{l}{\Large \tt #1}\\\hline\\} 
+\newenvironment{cvsection}[1]{\medskip \begin{tabular}{rl} \cvsectionname{#1}}{\end{tabular}}
+\newcommand{\cvline}[2]{\parbox[t]{2.3cm}{\sl  \hfill #1} & \parbox[t]{14cm}{ #2 \hfill}\\\vspace{4pt}} 
+\newcommand{\cvsecondaryline}[1]{ & \parbox[t]{14cm}{#1 \hfill} \\\vspace{4pt}} 
+\newcommand{\cvexplanationline}[1]{ & $\triangleright$ #1 \hfill \\\vspace{4pt}} 
+\newcommand{\cvtechnicalline}[2]{\parbox[t]{2.3cm}{\sl #1} & \parbox[t]{14cm}{ #2 \hfill}\\\vspace{4pt}} 
+\newcommand{\cvlanguageline}[2]{\parbox[t]{2.48cm}{\sl #1} & \parbox[t]{14cm}{ #2 \hfill}\\\vspace{4pt}} 
+\newcommand{\cvexperienceline}[2]{\parbox[t]{2.3cm}{\sl \hfill #1} & \parbox[t]{14cm}{{\bf #2} \hfill}\\\vspace{4pt}} 
+\newcommand{\cvexperienceexplanationline}[1]{ & \parbox[t]{14cm}{$\triangleright$ #1 \hfill} \\\vspace{4pt}} 
+\newcommand{\cvexperiencecontributionline}[1]{ & \parbox[t]{14cm}{\hspace{6pt} $\bullet$ #1 \hfill} \\\vspace{4pt}} 
+\newcommand{\cvreferenceline}[2]{& \parbox[t]{16cm}{$\bullet$ \bf #1, \rm #2}\\\vspace{4pt}} 
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{center}
+\hspace*{4.8cm}{\LARGE  \bf     Mircea Filip LUNGU}  \\[9pt]
+\hspace*{4.8cm}Via Al Fiume 2  \\
+\hspace*{4.8cm}Lugano, Switzerland  \\
+\hspace*{4.8cm}+41-078-904.3235  \\
+\hspace*{4.8cm}mircea.lungu@lu.unisi.ch  \\
+\hspace*{4.8cm}\href{http://www.inf.unisi.ch/phd/lungu}{http://www.inf.unisi.ch/phd/lungu}
+\end{center}
+
+\vspace{0.3cm}
+
+\begin{cvsection}{Education}
+\cvline{Oct. 2009 - now} {Postdoctoral researcher in the REVEAL group in the Informatics Faculty from ``Politehnica'' University of Timi\c{s}oara}
+\cvline{Oct. 2004 - Oct 2009} {PhD student at the Faculty of Informatics from the University of Lugano. 
+% My advisor is Prof. Dr. Michele Lanza. My main research interests are in  software engineering and visualization.
+}
+% \cvexplanationline{Working with Prof. Dr. Michele Lanza}
+% \cvexplanationline{Interested in Software Engineering, Program Comprehension, Software Visualization}
+
+\cvline{1999 - 2004} {Student at the Computer Science Faculty from ``Politehnica'' University of Timi\c{s}oara}
+% \cvexplanationline{Average grade for the 5 years: 9.6 (out of 10)}
+
+%\cvline{1995 - 1999}{``Vasile Goldis'' High School in Arad - specialization in informatics}
+%\cvexplanationline{Leaving examination mark: 9.5 (out of 10)}
+\end{cvsection}
+
+
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{cvsection}{Employment}
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\cvexperienceline{Oct. 2004 -  ...}{Faculty of Informatics, University of Lugano, Switzerland}
+\cvexperienceexplanationline{Teaching Assistant. Assisting the {\em Programming Fundamentals I} and co-teaching the {\em Software Atelier II} course. Preparing courses, grading assignments, preparing projects and exams. Leading master's and bachelor's projects.}
+
+\cvexperienceline{2007, Jul-Dec}{IBM T.J. Watson Research Center, Hawthorne, NY}
+\cvexperienceexplanationline {Intern/Co-op in the Next Generation Distributed Systems Group. Extending the Streamsight visualization tool with suport for visualizing and editing semantic descriptions of the components of large distributed workflow applications.}
+
+\cvexperienceline{2001 - 2003}{Computervoice Systems, Romania}
+\cvexperienceexplanationline{Software Developer (part-time). Working on Dependabill, a CRM system for  for the telecommunications market in the United States}
+%\cvexperiencecontributionline{Team working and learning about industry demands}
+%\cvexperiencecontributionline{Implementation in Visual C++}
+
+\cvexperienceline{1999 - 2000}{Logos Highschool, Timi\c{s}oara}
+\cvexperienceexplanationline{Instructor. Teaching the introductory programming course with Pascal}
+%\cvexperiencecontributionline{Teaching the introductory programming course with Pascal}
+\end{cvsection}
+
+
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{cvsection}{Research Experience}
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\cvexperienceline{2008}{Consulting for a large telecommunications company}
+\cvexperiencecontributionline{Member of a multi-disciplinary team developing the next social networking platform. Working on a proof of concept prototype  in Ruby.}
+
+\cvexperienceline{2005}{Consulting for a multinational software development company}
+\cvexperiencecontributionline{Member of a team of specialists from across Europe working together to analyze a large legacy software system. Responsible with performing dependnecy analysis on the system.}
+
+\cvexperienceline{2004}{Diploma thesis in collaboration with Software Composition Group from University of Bern}
+\cvexperiencecontributionline{Extending the Detection Strategies Mechanism }
+\cvexperiencecontributionline{Developing the Magnet View visualisation tool}
+
+\cvexperienceline{2002 - 2004}{Member of the LOOSE Research Group (LRG)}
+\cvexperiencecontributionline{Studying the evolution and re-engineering of object-oriented software systems}
+
+\cvexperiencecontributionline{Reengineering and extending ProDeOOS - a quality assurance tool developed at LRG}
+\end{cvsection}
+
+\begin{cvsection}{Community Service}
+\cvline{2005 - ...}{Organizer of the {\em PhD Talks} at the Faculty of Informatics from University of Lugano. The seminar series are the place where PhD students talk about various topics they are interested in and practice presentation skills.}
+\cvline{2005 - ...}{Reviewer for the following conferences and workshops: VisSoft 2005, SoftVis 2006, CSMR 2006, MSR 2006, ICPS 2006, ASE 2006, CSMR 2007, VissSoft 2007, Eurovis 2009, WCRE 2009, CSMR 2010, ICSE 2010}
+\end{cvsection}
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{cvsection}{Distinctions}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\cvline{2007}{{\em 1st Place at the ESUG Innovation Awards.} Competing with The Small Project Observatory - an online application aimed ad visualizing project portfolios. ESUG is the primary European Smalltalk Conference.}
+
+\cvline{2006}{{\em Best poster award} for the poster entitled {\em Cutting Edge Software Visualization} presented at the 3rd International ACM Symposium on Software Visualization, Brighton, 2006}
+\cvline{2003}{{\em Best software engineer} award in the contest organized by the LOOSE (The Lab on Software Engineering) at the Polytechnic University of Timisoara, Romania}
+\cvline{2002}{The 2nd prize with the faculty's team at the ``Hard \& Soft'' International Contest, Suceava, Romania. The contest was based on Image Processing and the project we developed was a security sistem}
+\cvline{2001}{The 3rd prize at the Mecrob programming contest, Timisoara, with the software simulation of a mechanical Robot}
+\cvline{1999}{The 3rd prize at the National Contest of Educational Software, Focsani}
+%\cvline{1998}{The 1st prize at the Regional Computer Science Contest, Arad}
+%\cvline{1995 - 1999}{Prizes at the scholar contests in physics, mathemathics, informatics}
+\end{cvsection}
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\begin{cvsection}{Selected Projects}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\cvline{2007 - ... } {\href{http://spo.inf.unisi.ch/}{\bf The Small Project Observatory} - Portal for software ecosystem visualization and analysis. The project won the First Place in the ESUG Innovation Award Competiotion in 2007 (ESUG - European Smalltalk Conference)}
+
+\cvline{2006}  {\href{http://www.inf.unisi.ch/phd/lungu/iretrospect/}{\bf iRetrospect}. A pet project that I started in order to be able to visualise the way I spend my time on the computer. In the same time I wanted to experience development for OS X with Cocoa and ObjectiveC.}
+\cvline{2005 - ...}{\href{http://www.inf.unisi.ch/phd/lungu/softwarenaut/}{\bf Softwarenaut}. A tool for software visualization and exploration. The goal of the tool is understanding large software systems by exploring their hierarchical decompositions.  The application is developed using VisualWorks Smalltalk}
+\cvline{2004}{MagnetView. A software visualization tool for visualizing software artefacts and metrics}
+%\cvline{2003}{Kitta. A kindergarten management application written as a team project during the LOOSE Software Engineering Laboratory. ``Best Software engineer'' award}
+\cvline{2002}{Mircompilatorul. A compiler for Pascal written in Java}
+\cvline{2000}{Double-Triple-R. A 3D mechanical simulation of a robot. 3rd place at the local robotics contest}
+\end{cvsection}
+
+
+
+
+% ~~~~~~~~~~~~~~~~~~~~~~
+\begin{cvsection}{Publications}
+% ~~~~~~~~~~~~~~~~~~~~~~
+\cvline {2009} {{\bf Promises and Perils of Porting Software Visualization Tools to the Web}
+Marco D'Ambros, Mircea Lungu, Michele Lanza, Romain Robbes
+In Proceedings of WSE 2009 (11th IEEE International Symposium on Web Systems Evolution), pp. xxx - xxx. IEEE CS Press, 2009.
+}
+
+\cvline {2008} {{\bf Towards reverse engineering software ecosystems.}
+In proceedings of ICSM 2008 (24 IEEE Conference on Software Maintenance), 
+pp. 428-431, IEEE Press, 2008. Doctoral Symposium. }
+
+\cvline {} {{\bf A Teamwork-Based Approach to Programming Fundamentals with Scheme, Smalltalk, and Java}
+Michele Lanza, Amy Murphy, Romain Robbes, Mircea Lungu, Paolo Bonzini, Marco D'Ambros, Richard Wettel
+In Proceedings of ICSE 2008 (30th International Conference on Software Engineering, Education Track), pp. 787 - 790, ACM Press, 2008.
+}
+
+
+\cvline{2007} {{\bf Reverse Engineering Super-Repositories.}
+Mircea Lungu, Michele Lanza, Tudor Girba, Reinout Heeck
+In Proceedings of WCRE 2007 (14 Conference on Reverse Engineering), pp. 120 - 129, IEEE Computer Society, 2007.}
+
+\cvline{} {{\bf Exploring Inter-Module Relationships in Evolving Software Systems}, Mircea Lungu, Michele Lanza. In Proceedings of CSMR 2007 (11th European Conference on Software Maintenance and Reengineering), pp. 91- 100, IEEE Computer Society, 2007}
+
+\cvline{2006} {{\bf Biomedical Information Visualization}, Mircea Lungu, Kai Xu. Chapter in {\em Human Centered Visualization Environments}. Springer LNCS (to appear).}
+
+\cvline{} {{\bf Package Patterns for Visual Archietcure Recovery}. Mircea Lungu, Michele Lanza, Tudor Girba. In Proceedings of CSMR 2006 (10th European Conference on Software Maintenance and Reengineering), pp. 183 - 192, IEEE Computer Society, 2006}
+
+\cvline{} {{\bf Softwarenaut: Exploring Hierarchical System Decompositions} (Tool Demonstration) Mircea Lungu, Michele Lanza. In Proceedings of CSMR 2006 (10th European Conference on Software Maintenance and Reengineering), pp. 349 - 350, IEEE Computer Society, 2006}
+
+\cvline{} { {\bf Softwarenaut: Cutting the Edge in Software Visualization}.  (Best Poster Award)
+Mircea Lungu, Michele Lanza. In Proceedings of the 3rd International ACM Symposium on Software Visualization (SoftVis 2006), pp. 179-180}
+
+\cvline{} {{\bf Mondrian: An Agile Information Visualization Framework}. Michael Meyer, Mircea Lungu and Tudor Girba. In Proceedings of the 3rd International ACM Symposium on Software Visualization, (SoftVis 2006), pp. 135-144.}
+\cvline{} {{\bf The Evolution Radar: Visualizing Integrated Logical Coupling Information}.   
+Marco D'Ambros, Michele Lanza, Mircea Lungu. In Proceedings of MSR 2006 (3rd International Workshop on Mining Software Repositories), pp. 26-32, 2006.}
+
+\cvline{2005} {{\bf Interactive Exploration of Semantic Clusters}. Mircea Lungu, Adrian Kuhn, Tudor Girba, Michele Lanza. In Proceedings of VISSOFT 2005 (3rd IEEE International Workshop on Visualizing Software For Understanding and Analysis), pp. 95 - 100, IEEE CS Press, 2005. }
+
+\cvline{2004} {{\bf Conformity Strategies: Measures of Software Design Rules }. Diploma thesis defended at the "Politehnica" University of Timisoara (Romania), Department of Computer Science }
+\end{cvsection}
+
+
+
+% ~~~~~~~~~~~~~~~~~~~~~~
+%\begin{cvsection}{Presentations}
+%% ~~~~~~~~~~~~~~~~~~~~~~
+%\cvline{2007} {{\bf Exploring Inter-Module Relationships in Evolving Software Systems}. CSMR, Amsterdam 2007}
+%
+%\cvline{2006} {{\bf A Survey of Biomedical Visualization}. HCVE, Dagstuhl 2006}
+%\cvline{} {{\bf Softwarenaut: Cutting Edge Software Visualization}. SoftVis, Brighton 2006}
+%\cvline{} {{\bf Package Patterns for Visual Architecture Recovery}. CSMR, Bari 2006}
+%
+%\cvline{2005} {{\bf Interactive Exploration of Semantic Clusters}. IEEE VISSOFT, Budapest 2005}
+%\cvline{2003} {{\bf Optimizing Prodeoos, a tool for detecting design flaws}. SYNASC, Timisoara, 2003}
+%\end{cvsection}
+%
+%\begin{cvsection}{Technical Skills}
+%\cvtechnicalline{Languages:}{C/C++, Java, Smalltalk, Lisp, Prolog, Pascal,  Assembler, SQL, Php}
+%\cvtechnicalline{OS:}{Windows, Unix}
+%\cvtechnicalline{Tools:}{Visual Studio, Access, SQLServer, JBuilder, Delphi, Emacs, Idea, VisualWorks, Matlab}
+%\cvtechnicalline{Others:}{EJB, JSP, Ant, XUnit, MySQL, MFC, Flex, Bison, DirectX, SDL}
+%\end{cvsection}
+
+
+
+
+\begin{cvsection}{Programming Languages} 
+\cvlanguageline{Lisp} {I teach {\em Scheme} at undergraduate level and enjoy writing Lisp for small projects} %(e.g., currently I am writing a musical counterpoint generator).}
+
+\cvlanguageline{Smalltalk} {For the last three years I have been working with {\em Smalltalk} and I came to appreciate the flexibility of the language and it's simplicity. At the university of lugano I taught smalltalk during the Programming Fundamentals course.}
+
+\cvlanguageline{Java} {During the university years, I wrote a compiler for a simplified version of Pascal and a simplle CRM application. During my 6 months of internship at IBM I developed an Eclipse plugin for visualizing large distributed systems specifications. I supervised a bachelor project implementing a software visualization plugin for the Eclipse IDE.}
+
+\cvlanguageline{Other} {While working as a software developer at Computervoice Systems, I acquired in-depth knowledge of  {\em Visual C++} and MFC. I have taught {\em Pascal} at highschool level. Over the years I worked with many other languages: as Assembly, Prolog, Objective C, Ruby.}
+\end{cvsection}
+
+
+
+% ~~~~~~~~~~~~~~~~~~~~~
+\begin{cvsection}{Languages} 
+% ~~~~~~~~~~~~~~~~~~~~~
+\cvlanguageline{\hspace{1cm}}{{\em Romanian} is my native language. I speak fluently {\em English} and I have good knowledge of {\em Italian} and {\em French}. I am looking for a new language to learn.}
+\end{cvsection}
+\vspace{1cm}
+
+%% ~~~~~~~~~~~~~~~~~~~~~
+%\begin{cvsection}{Other} 
+%% ~~~~~~~~~~~~~~~~~~~~~
+%\cvlanguageline{\hspace{1cm}}{
+%I like to play the guitar and hike. I was the organizer of the {\em Lugano Funshops}, an improvisational theatre workshop for the students of the University of Lugano.
+%}
+%\end{cvsection}
+%\vspace{1cm}
+%
+
+% ~~~~~~~~~~~~~~~~~~~~~
+\begin{cvsection}{References}
+% ~~~~~~~~~~~~~~~~~~~~~
+\cvreferenceline{Prof. Dr. Michele Lanza}{\\Faculty of Informatics, University of Lugano. 
+\\Email: michele.lanza@unisi.ch\\}
+\cvreferenceline{Prof. Dr. Radu Marinescu}{\\Automation and Computer Science Faculty, ``Politehnica'' University of Timi\c{s}oara. 
+\\Email: radum@cs.utt.ro\\}
+\cvreferenceline{Dr. Wim de Pauw}{\\IBM T.J. Watson Research Center. 
+\\Email: wim@us.ibm.ch\\}
+
+\cvreferenceline{Dipl. Ing. Calin Sircuta}{\\Computervoice Systems, Romania. 
+\\Email: sircux@computervoice.ro\\}
+	
+\end{cvsection}
+
+
+\end{document}
+
+
+
