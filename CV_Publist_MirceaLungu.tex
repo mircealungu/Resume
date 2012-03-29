@@ -1,0 +1,341 @@
+\documentclass[a4paper]{article}
+\usepackage[mac]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{a4wide}
+%\usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=black,citecolor= black,urlcolor= black]{hyperref}
+% \usepackage[pdftex]{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{ifthen}
+\newboolean{longversion}
+\setboolean{longversion}{false} % toggle for long/short version
+% \setboolean{longversion}{true} % toggle for long/short version
+\ifthenelse{\boolean{longversion}}
+{
+	\newcommand{\longcv}[1]{#1}
+	\newcommand{\shortcv}[1]{}
+}{
+	\newcommand{\longcv}[1]{}
+	\newcommand{\shortcv}[1]{#1}
+}
+\newcommand{\period}{(since 2007)}
+\renewcommand{\labelitemi}{---}% {$\bullet$}
+
+\newcommand{\nbc}[3]{
+ {\colorbox{#3}{\bfseries\sffamily\scriptsize\textcolor{white}{#1}}}
+ {\textcolor{#3}{\sf\small$\blacktriangleright$\textit{#2}$\blacktriangleleft$}}}
+\newcommand\ml[1]{\nbc{ML}{#1}{violet}} % add more author macros here
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pdfinfo{
+  /Title(Curriculum Vitae)
+  /Author(Mircea Lungu)
+  /Subject()
+  /Keywords($Id$)
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\longcv{\title{\textsf{Dr. Mircea F. Lungu \\Curriculum Vit\ae}}}
+\shortcv{\title{\textsf{Dr. Mircea F. Lungu \\Curriculum Vit\ae ~(short version)}}}
+\pagestyle{myheadings}
+\thispagestyle{plain}
+\markright{Dr. Mircea F. Lungu CV --- \today}
+\shortcv{\date{}}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\shortcv{\vspace{-2cm}}
+\longcv{\hfill\includegraphics[width=3cm]{on-feb-2011-small.jpg}\vspace{-4cm}}
+
+\section{Personal Data}
+\begin{tabular}{p{3cm}l}
+Name				& Mircea Filip Lungu \\
+Residence		& Engestrasse 1, 3012, Bern\\
+Mobile			& +41 78 904 3235\\
+Work				& Institut für Informatik (IAM), Universität Bern \\
+				& Neubrückstrasse 10, CH-3012 Berne, Switzerland \\
+Telephone		& +41 31 631 7637 \\
+Fax			& +41 31 631 3355 \\
+E-mail			& \href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\
+Home page		& \url{http://scg.unibe.ch/staff/mircea} \\
+Birthdate		& October 24, 1980 (Arad, Romania)\\
+Citizenship		& Romanian \\
+\longcv{
+Civil status		& Unmarried\\
+Hobbies			& Running, swimming, biking, skiing.\\
+Languages		& Romanian (mother tongue).\\
+				& Fluent in English, French, Italian.\\
+				& Basic conversation skills in German.
+} % end longcv
+
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Employment History}
+\begin{tabular}{p{3.5cm}l}
+2010-present		& \emph{Postdoctoral Researcher} \\
+				& Institut für Informatik, Universität Bern \\
+2009-2010		& \emph{Postdoctoral Researcher} \\
+				& Faculty of Informatics, University of Lugano\\
+2004-2009		& \emph{PhD Student} \\
+				& Faculty of Informatics, University of Lugano\\
+2007			& \emph{Intern/Co-op Researcher} \\
+				& IBM TJ Watson Research Center, NY\\
+2001-2003		& \emph{Software Developer} \\
+				& Computervoice Systems, Romania\\
+1999-2001		& \emph{Instructor for the Programming Course} \\
+				& Logos Professional School, Timisoara, Romania\\
+
+
+\longcv{
+}
+\end{tabular}
+% ==========================================================
+\subsection*{University education}
+\begin{tabular}{p{3cm}p{12cm}}
+Ph.D.	& 2009, Faculty of Informatics, University of Lugano\\
+		& Thesis: \emph{Reverse Engineering Software Ecosystems} \\
+		& Supervisor: Prof. M. Lanza\\
+Dipl.Ing.	& 2004, Department of Computer Science, Polytechnic University of Timisoara\\
+		& Thesis: \emph{Conformity Strategies - Measures of Software Design Rules}\\
+		& Supervisor: Prof. R. Marinescu \\
+\end{tabular}
+% ==========================================================
+\longcv{
+\subsection*{Research interests}
+Software evolution.
+Reverse and re-engineering.
+Context-oriented programming.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\longcv{
+\longcv{\section{Professional Activities}}
+\shortcv{\section{Selected Professional Activities \period}}
+
+%:- Editor:
+\paragraph{Board Member}
+CHOOSE - Swiss Group for Object Oriented Systems and Environments \footnote{\url{http://choose.s-i.ch}} 2011 - present.
+
+\shortcv{
+%:- Reviewer:
+\paragraph{Journal Reviewer}
+Journal of Software Maintenance and Evolution,
+Empirical Software Engineering,
+Elsevier Journal of Systems and Software,
+Elsevier Science of Computer Programming
+}
+
+\longcv{
+%:- Reviewer:
+\paragraph{Project Reviewer}
+Expert for the CORDIS FP7 Programme
+}
+
+%:- Member:
+%\paragraph{Committee Member}
+%ESEC, Steering Committee (1999-present);
+
+%:- Organizer, co-organizer:
+\paragraph{Organizer, co-organizer}
+FAMOOSR 2010
+
+%:- Programme Chair:
+\paragraph{Programme Chair}
+WCRE Tool Demo Track Chair, 2011
+CSMR Tool Demo Track Chair, 2012
+
+%:- PC Member:
+\paragraph{PC Member}
+WCRE 2012\footnote {International Conference on Reverse Engineering}, IWSECO 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Scholarships, honours and awards}
+\begin{tabular}{p{1cm}p{12cm}}
+
+2010 & Best Paper Award with Lile Hattori at IWPSE-EVOL 2010 for {\em Replaying Past Changes in Multi-Developer Projects}\\
+
+2007 & 1st Place at the ESUG Innovation Awards for the {\em Small Project Observatory} a platform for the visualization, monitoring, and analysis of software ecosystems\\
+
+2006 & Best Poster Award at the 3rd International ACM Symposium on Software Visualization, Brighton 2006, for the poster {\em Cutting Edge Software Visualization} \\
+
+2003 & {\em Best software engineer} award in the LOOSE Software Engineering Lab at the Polytechnic University of Timisoara, Romania \\
+
+2002 & 2nd Place with the Polytechnica Timisoara's team at the International {\em Hard \& Soft} Contest, Suceava, Romania. The contest was based on Image Processing and the project we developed was a security sistem \\
+
+% 1999 & 3rd Place at the National Student Software Development Contest, Focsani, Romania \\
+%
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Invited Talks \period}
+
+\begin{tabular}{p{1cm}p{12cm}}
+2011 	& University of California, Irvine. {\em Reverse Engineering Software Ecosystems.}\\
+2010 	& PL 2010, The 3rd Summer School on Programming Languages, Chile. {\em Software Ecosystem Analysis.} \\
+	& Faculty of Informatics, University of Lugano. Lecture on {\em Architecture Recovery.}\\
+	& Pleiad Lab, University of Chile. Lecture on {\em Reverse Engineering Software Ecosystems.}\\
+2008	& 2nd International Workshop on Advanced Software Development Tools and Techniques (Wasdett2 2008), Beijing (China). Invited Talk on {\em Web-based visualization tools for reverse engineering.}\\
+2007 	& IBM TJ Watson Research Center. {\em The Small Project Observatory.}\\
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\longcv{
+\section{Teaching}
+% ==========================================================
+\subsection{Courses}
+\begin{itemize}
+\item Concurrent Programming (2012) (U. Berne)
+\item Programming Fundamentals (2004 - 2008) (U. Lugano)
+\end{itemize}
+} % end longcv
+
+
+\section{Thesis supervision \period}
+
+\begin{small}
+%\subsection{Bachelor and Master Theses supervised or co-supervised}
+\begin{enumerate}
+\item Jacopo Malnati, X-Ray - An Eclipse Plug-in for Software Visualization. Bachelor Thesis, University of Lugano, 2007.
+\item Jacopo Malnati, Developer-centric Analysis of SVN Ecosystems. Master Thesis, University of Lugano, 2009.
+\item Alessio Boeckmann, MARS - Modular Architecture Recommendation System. Master Thesis, University of Lugano, 2010
+\ml{should I put supervisions which are "in progress"?}
+\end{enumerate}
+\end{small}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\longcv{
+\newpage
+\section{Publications}
+
+The majority of these publications are available as PDF downloads from the following web page:
+\url{http://scg.unibe.ch/staff/mircea/pubs}.
+
+\emph{H-index:} 9.
+}
+
+\longcv{
+\begin{small}
+\input{pubs}
+\end{small}
+} % end longcv
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\shortcv{
+\newpage
+\section{Publications \period}
+
+\emph{H-index:} 9.
+All publications are available online: \url{http://scg.unibe.ch/staff/mircea/pubs}.
+
+Selected publications particularly relevant to this proposal are indicated by \fbox{$\star$}.
+% NB: Generate pubs with "make recent"
+\begin{small}
+
+
+% ==========================================================
+\subsection{Peer-reviewed articles (original publications)}
+
+\subsubsection*{Refereed Papers in International Journals}
+\begin{enumerate}
+\item 
+\fbox{$\star$}
+Mircea Lungu, Michele Lanza, and Oscar Nierstrasz. \emph{Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut.} In Science of Computer Programming (SCP) p. to appear, 2012.
+\item 
+Marco D'Ambros, Michele Lanza, Mircea Lungu, and Romain Robbes. \emph{On Porting Software Visualization Tools to the Web.} In In Journal on Software Tools for Technology Transfer 13 p. 181 - 200, 2011.
+\item 
+\fbox{$\star$}
+Mircea Lungu, Michele Lanza, Tudor G\^irba, and Romain Robbes. \emph{The Small Project Observatory: Visualizing Software Ecosystems.} In Science of Computer Programming, Elsevier 75(4) p. 264-275, April 2010.
+\item 
+Marco D'Ambros, Michele Lanza, and Mircea Lungu. \emph{Visualizing Co-Change Information with the Evolution Radar.} In Transactions on Software Engineering (TSE) 35(5) p. 720 - 735, 2009.
+\end{enumerate}
+
+
+\subsubsection*{Refereed Papers in International Conferences}
+\begin{enumerate}
+\item 
+\fbox{$\star$}
+Niko Schwarz, Mircea Lungu, and Romain Robbes. \emph{On How Often is Code Cloned Across Repositories.} In Proceedings of ICSE 2012, p. to appear, 2012. 
+\item Erwann Wernli, Mircea Lungu, and Oscar Nierstrasz. \emph{Incremental Dynamic Updates with First-class Contexts.} In Objects, Components, Models and Patterns, Proceedings of TOOLS Europe 2012, 2012. To appear.
+\item Amir Aryani, Fabrizio Perin, Mircea Lungu, Abdun Naser Mahmood, and Oscar Nierstrasz. \emph{Can We Predict Dependencies Using Domain information?.} In Proceedings of the 18th Working Conference on Reverse Engineering (WCRE 2011), October 2011. 
+\item Lile Hattori and Alberto Bacchelli and Michele Lanza and Mircea Lungu. \emph{Erase and rewind  --  Learning by replaying examples}. In Proceedings of the 24th Conference on Software Engineering Education and Training (CSEET), 2011, Hawaii. 
+\item Lile Hattori, Marco D'Ambros, Michele Lanza, and Mircea Lungu. \emph{Software Evolution Comprehension: Replay to the Rescue.} In Proceedings of the 19th International Conference on Program Comprehension, p. 161-170, IEEE Computer Society Press, 2011. 
+\item 
+\fbox{$\star$}
+Romain Robbes and Mircea Lungu. \emph{A Study of Ripple Effects in Software Ecosystems (NIER).} In Proceedings of the 33rd International Conference on Software Engineering (ICSE 2011), p. 904-907, May 2011. 
+\item Niko Schwarz, Mircea Lungu, and Oscar Nierstrasz. \emph{Seuss: Cleaning up Class Responsibilities with Language-based Dependency Injection.} In Objects, Components, Models and Patterns, Proceedings of TOOLS Europe 2011, LNCS 33 p. 276-289, Springer-Verlag, 2011. 
+\item Toon Verwaest, Camillo Bruni, Mircea Lungu, and Oscar Nierstrasz. \emph{Flexible object layouts: enabling lightweight language extensions by intercepting slot access.} In Proceedings of the 2011 ACM international conference on Object oriented programming systems languages and applications, OOPSLA '11 p. 959-972, ACM, New York, NY, USA, 2011. 
+\item 
+\fbox{$\star$}
+Mircea Lungu, Romain Robbes, and Michele Lanza. \emph{Recovering Inter-Project Dependencies in Software Ecosystems.} In ASE'10: Proceedings of the 25th IEEE/ACM International Conference on Automated Software Engineering, ACM Press, 2010. 
+\item Marco D'Ambros, Mircea Lungu, Michele Lanza, and Romain Robbes. \emph{Promises and Perils of Porting Software Visualization Tools to the Web.} In Proceedings of WSE 2009 (11th IEEE International Symposium on Web Systems Evolution), p. 109-118, IEEE CS Press, 2009.
+\item 
+\fbox{$\star$}
+Mircea Lungu and Michele Lanza. \emph{Exploring Inter-Module Relationships in Evolving Software Systems.} In Proceedings of CSMR 2007 (11th European Conference on Software Maintenance and Reengineering), p. 91-100, IEEE Computer Society Press, Los Alamitos CA, 2007.
+\item 
+\fbox{$\star$}
+Mircea Lungu, Michele Lanza, Tudor G\^irba, and Reinout Heeck. \emph{Reverse Engineering Super-Repositories.} In Proceedings of WCRE 2007 (14th Working Conference on Reverse Engineering), p. 120-129, IEEE Computer Society Press, Los Alamitos CA, 2007. 
+\item Romain Robbes, Michele Lanza, and Mircea Lungu. \emph{An Approach to Software Evolution Based on Semantic Change.} In Proceedings of FASE 2007 (10th International Conference on Fundamental Approaches to Software Engineering), p. 27-41, 2007.
+%\item Marco D'Ambros, Michele Lanza, and Mircea Lungu. \emph{The Evolution Radar: Integrating Fine-grained and Coarse-grained Logical Coupling Information.} In Proceedings of MSR 2006 (3rd International Workshop on Mining Software Repositories), p. 26 - 32, 2006.
+%\item Mircea Lungu, Michele Lanza, and Tudor G\^irba. \emph{Package Patterns for Visual Architecture Recovery.} In Proceedings of CSMR 2006 (10th European Conference on Software Maintenance and Reengineering), p. 185-196, IEEE Computer Society Press, Los Alamitos CA, 2006. 
+%\item Michael Meyer, Tudor G\^irba, and Mircea Lungu. \emph{Mondrian: An Agile Visualization Framework.} In ACM Symposium on Software Visualization (SoftVis'06), p. 135-144, ACM Press, New York, NY, USA, 2006. 
+
+\end{enumerate}
+
+\subsubsection*{Refereed Papers in International Workshops}
+\begin{enumerate}
+\item Lile Hattori, Mircea Lungu, and Michele Lanza. \emph{Replaying past changes in multi-developer projects.} In Proceedings of the Joint ERCIM Workshop on Software Evolution (EVOL) and International Workshop on Principles of Software Evolution (IWPSE), p. 13-22, October 2010.
+\item Fernando Olivero, Michele Lanza, and Mircea Lungu. \emph{Gaucho: From Integrated Development Environments to Direct Manipulation Environments.} In Proceedings of FlexiTools 2010 (1st International Workshop on Flexible Modeling Tools), 2010.
+\item 
+\fbox{$\star$}
+Mircea Lungu and Tudor G\^irba. \emph{A Small Observatory for Super-Repositories.} In Proceedings of International Workshop on Principles of Software Evolution (IWPSE 2007), p. 106-109, ACM Press, 2007.
+%\item Mircea Lungu and Michele Lanza. \emph{Softwarenaut: Cutting Edge Visualization.} In Proceedings of Softvis 2006 (3rd International ACM Symposium on Software Visualization), p. 179-180, ACM Press, 2006.
+%\item Mircea Lungu and Michele Lanza. \emph{Softwarenaut: Exploring Hierarchical System Decompositions.} In Proceedings of CSMR 2006 (10th European Conference on Software Maintenance and Reengineering), p. 351-354, IEEE Computer Society Press, Los Alamitos CA, 2006. 
+\item Mircea Lungu, Adrian Kuhn, Tudor G\^irba, and Michele Lanza. \emph{Interactive Exploration of Semantic Clusters.} In 3rd International Workshop on Visualizing Software for Understanding and Analysis (VISSOFT 2005), p. 95-100, 2005.
+
+\end{enumerate}
+
+%
+%\subsection{Monographs}
+%\begin{enumerate}
+%\end{enumerate}
+%
+% ==========================================================
+%\subsection{Book contributions}
+%\begin{enumerate}
+%\end{enumerate}
+%
+
+
+% ==========================================================
+\subsection{Other pertinent publications}
+\begin{enumerate}
+
+\item 
+\fbox{$\star$}
+Mircea Lungu and Oscar Nierstrasz,
+``Recovering Software Architecture with Softwarenaut,''
+{\it ERCIM News},
+vol. 88,
+January 2012.
+
+\item 
+\fbox{$\star$}
+Mircea Lungu, Oscar Nierstrasz and Niko Schwarz
+``Big Software Data Analysis''
+{\it ERCIM News},
+vol. 89,
+April 2012 (to appear).
+
+\end{enumerate}
+\end{small}
+
+}
+
+% \input{refs}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
