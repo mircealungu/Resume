@@ -1,2 +1,9 @@
 *.log
+*.aux
+*.out
+*.pdf
+*latexmk
+*synctex
+*.gz
+*.fls
 
