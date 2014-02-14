@@ -4,9 +4,7 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{a4wide}
-%\usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 \usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=black,citecolor= black,urlcolor= black]{hyperref}
-% \usepackage[pdftex]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{ifthen}
 \newboolean{longversion}
@@ -31,111 +29,131 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pdfinfo{
   /Title(Curriculum Vitae)
-  /Author(Mircea Lungu)
+  /Author(Mircea F. Lungu)
   /Subject()
   /Keywords($Id$)
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\longcv{\title{\textsf{Dr. Mircea F. Lungu \\Curriculum Vit\ae}}}
-\shortcv{\title{\textsf{Dr. Mircea F. Lungu \\Curriculum Vit\ae}}}
+\longcv{\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}}
+\shortcv{\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}}
 \pagestyle{myheadings}
 \thispagestyle{plain}
-\markright{Dr. Mircea F. Lungu CV --- \today}
-\shortcv{\date{}}
+\markright{Mircea F. Lungu, PhD --- CV --- \today}
+\date{}
 \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\shortcv{\vspace{-2cm}}
-\longcv{\hfill\includegraphics[width=3cm]{on-feb-2011-small.jpg}\vspace{-4cm}}
 
-\section{Personal Data}
-\begin{tabular}{p{3cm}l}
-Name				& Mircea Filip Lungu \\
-%Residence		& Z‰hringerstrasse 78, Bern\\
-%Mobile			& +41 78 904 3235\\
-Work				& Institut für Informatik (IAM), Universität Bern \\
-				& Neubrückstrasse 10, CH-3012 Berne, Switzerland \\
-Telephone		& +41 31 631 7637 \\
-Fax			& +41 31 631 3355 \\
-E-mail			& \href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\
-Home page		& \url{http://scg.unibe.ch/staff/mircea} \\
-%Birthdate		& October 24, 1980 (Arad, Romania)\\
-%Citizenship		& Romanian \\
-\longcv{
-Civil status		& Unmarried\\
-Hobbies			& Running, swimming, biking, skiing.\\
-Languages		& Romanian (mother tongue).\\
-				& Fluent in English, French, Italian.\\
-				& Basic conversation skills in German.
-} % end longcv
+% \vspace{-4cm}\includegraphics[width=3cm]{ml-bw.png}
+% \vspace{0.5cm}
 
-\end{tabular}
+
+\newcommand{\cvsection}[1]{\section*{#1}\vspace{-0.75em}\hrule\vspace{1em}}
+
+
+% Empirical Software Engineering, 
+% Software evolution,
+% Reverse and re-engineering,
+% Programming Languages,
+% Triathlon, Music, Theatre.
+
+
+\newcommand{\degree}[5]{#1, #2 & #3\\ &#4\\ &#5\\ \\}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Employment History}
-\begin{tabular}{p{3.5cm}l}
-2010-present		& \emph{Postdoctoral Researcher} \\
-				& Institut für Informatik, Universität Bern \\
-2009-2010		& \emph{Postdoctoral Researcher} \\
-				& Faculty of Informatics, University of Lugano\\
-2004-2009		& \emph{PhD Student} \\
-				& Faculty of Informatics, University of Lugano\\
-2007			& \emph{Intern/Co-op Researcher} \\
-				& IBM TJ Watson Research Center, NY\\
-2001-2003		& \emph{Software Developer} \\
-				& Computervoice Systems, Romania\\
-1999-2001		& \emph{Instructor for the Programming Course} \\
-				& Logos Professional School, Timisoara, Romania\\
+\cvsection{Education}
 
+\begin{tabular}{p{3cm} p{11cm}}
 
-\longcv{
-}
+\degree
+	{PhD}
+	{2009}
+	{Faculty of Informatics, University of Lugano}
+	{Dissertation: {\em Reverse Engineering Software Ecosystems}}
+	{Advisor: Prof. Dr. Michele Lanza}
+
+\degree
+	{Dipl. Ing.}
+	{2004}
+	{Computer Science Department, Polytechnic University of Timisoara}
+	{Thesis: \emph{Conformity Strategies - Measures of Software Design Rules}}
+	{Supervisor: Prof. Dr. Radu Marinescu}
+
+\end{tabular}
+
+\newcommand{\job}[4]{#1 & {\bf #3}\\ & #2\\  &{\em#4}\\ \\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+
+\begin{tabular}{r p{11cm}}
+
+	\job
+	{Aug 2010 -- present}
+	{Computer Science Institute, University of Bern}
+	{Postdoctoral Research Associate \& Lecturer}
+	{Assisting Oscar Nierstrasz in running the SCG}
+
+	\job
+	{2009 -- 2010}
+	{Faculty of Informatics, University of Lugano}
+	{Postdoctoral Researcher}
+	{Researching and Teaching}
+
+	\job 
+	{2004 -- 2009}
+	{Faculty of Informatics, University of Lugano}
+	{PhD Student}
+	{Software Engineering Researcher}
+
+	\job 
+	{Jul -- Dec, 2007}
+	{IBM TJ Watson Research Center, NY}
+	{Visiting Researcher}
+	{Visualizing distributed systems with Wim De Pauw}
+
+	\job
+	{2001 -- 2003}
+	{Computervoice Systems}
+	{Software Developer}
+	{Writing software for US telecom management}
+
+	\job
+	{1999 -- 2001}
+	{Logos Professional Highschool, Timisoara, Romania}
+	{Instructor}
+	{Teaching Introduction to Programming with Pascal}
+
 \end{tabular}
 % ==========================================================
-\section{University Education}
-\begin{tabular}{p{3cm}p{12cm}}
-Ph.D.	& 2009, Faculty of Informatics, University of Lugano\\
-		& Thesis: \emph{Reverse Engineering Software Ecosystems} \\
-		& Supervisor: Prof. M. Lanza\\
-Dipl.Ing.	& 2004, Department of Computer Science, Polytechnic University of Timisoara\\
-		& Thesis: \emph{Conformity Strategies - Measures of Software Design Rules}\\
-		& Supervisor: Prof. R. Marinescu \\
-\end{tabular}
+
+
+
 % ==========================================================
-\longcv{
-\subsection*{Research interests}
-Software evolution.
-Reverse and re-engineering.
-Context-oriented programming.
-}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{professional-activities}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \input{awards}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{invited}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\section {Research Projects}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\longcv{
-\section{Teaching}
-% ==========================================================
-\subsection{Courses}
-\begin{itemize}
-\item Concurrent Programming (2012) (U. Berne)
-\item Programming Fundamentals (2004 - 2008) (U. Lugano)
-\end{itemize}
-} % end longcv
+\cvsection{Undergraduate and Graduate Teaching}
+\begin{enumerate}
+	\item {\em Software Engineering} 2013, U. Berne --- Lecturer.
+	\item {\em Compiler Construction} 2013, U. Berne --- Lecturer.
+	\item {\em Concurrency: State Models and Design Patterns} 2012, U. Berne --- Lecturer.
+	\item {\em Software Design and Evolution} 2011, U. Berne --- Lecturer.
+	\item {\em Principles of GUI Design}. 2010, U. Lugano --- Lecturer.
+	\item {\em Human Computer Interaction.} 2008, U. Lugano --- Lecturer.
+	\item {\em Programming Fundamentals (I+II).} 2004 -- 2007, U. Lugano --- Teaching Assistant.
+\end{enumerate}
 
 
 \input{supervision}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Publications}
+\cvsection{Publications}
 
 \emph{H-index:} 13.
 These and further publications are available online at \url{http://scg.unibe.ch/staff/mircea/pubs} or on \href{http://scholar.google.ch/citations?user=7zx6Cg0AAAAJ}{Google Scholar}
@@ -231,6 +249,31 @@ April 2012.
 
 \end{enumerate}
 
+
+\cvsection{Even More Stuff} % (fold)
+\label{sec:further_relevant_information}
+
+\begin{tabular}{p{3cm}l}
+Hobbies			& Triathlon\\
+Languages		& Romanian, English, French, Italian, German.
+
+\end{tabular}
+
+% section further_relevant_information (end)
+
+\cvsection{Contact}
+Institut für Informatik (IAM), Universität Bern \\
+Neubrückstrasse 10, CH-3012 Berne, Switzerland \\
++41 31 631 7637 (Office) \\
++41 31 631 3355 (Fax) \\
+\href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\
+%Birthdate		& October 24, 1980 (Arad, Romania)\\
+%Citizenship		& Romanian \\
+% Name				& Mircea Filip Lungu \\
+% Residence		& Z‰hringerstrasse 78, Bern\\
+% Mobile			& +41 78 904 3235\\
+
+\url{http://mir.lu} \\
 
 
 % \input{refs}
