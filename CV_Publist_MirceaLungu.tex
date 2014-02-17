@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{a4wide}
+\usepackage{titling}
 \usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=black,citecolor= black,urlcolor= black]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{ifthen}
@@ -40,8 +41,13 @@
 \pagestyle{myheadings}
 \thispagestyle{plain}
 \markright{Mircea F. Lungu, PhD --- CV --- \today}
-\date{}
+\posttitle{\par\end{center}\vspace{-1cm}}
+\date{\small http://mir.lu/cv}
 \maketitle
+
+\vspace{1cm}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \vspace{-4cm}\includegraphics[width=3cm]{ml-bw.png}
@@ -84,41 +90,43 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Experience}
 
-\begin{tabular}{r p{11cm}}
+\begin{tabular}{r p{8cm}}
 
 	\job
 	{Aug 2010 -- present}
-	{Computer Science Institute, University of Bern}
-	{Postdoctoral Research Associate \& Lecturer}
-	{Assisting Oscar Nierstrasz in running the SCG}
+	{Computer Science Institute, University of Bern, CH}
+	{Researcher \& Lecturer}
+	{
+	%Assisting Oscar Nierstrasz in managing the SCG. 
+	Conducting research in software engineering and programming languages. Mentoring graduate students. Teaching a variety of lectures.}
 
 	\job
 	{2009 -- 2010}
-	{Faculty of Informatics, University of Lugano}
+	{Faculty of Informatics, University of Lugano, CH}
 	{Postdoctoral Researcher}
-	{Researching and Teaching}
+	{Conducting research in software evolution.}
 
 	\job 
 	{2004 -- 2009}
-	{Faculty of Informatics, University of Lugano}
+	{Faculty of Informatics, University of Lugano, CH}
 	{PhD Student}
 	{Software Engineering Researcher}
 
 	\job 
 	{Jul -- Dec, 2007}
-	{IBM TJ Watson Research Center, NY}
+	{IBM TJ Watson Research Center, NY, USA}
 	{Visiting Researcher}
 	{Visualizing distributed systems with Wim De Pauw}
 
 	\job
 	{2001 -- 2003}
-	{Computervoice Systems}
+	{Computervoice Systems, Timisoara, RO}
 	{Software Developer}
-	{Writing software for US telecom management}
+	{Writing customer management software for american telecommunications companies}
 
 	\job
 	{1999 -- 2001}
-	{Logos Professional Highschool, Timisoara, Romania}
+	{Logos Professional Highschool, Timisoara, RO}
 	{Instructor}
 	{Teaching Introduction to Programming with Pascal}
 
@@ -263,18 +271,20 @@ Languages		& Romanian, English, French, Italian, German.
 % section further_relevant_information (end)
 
 \cvsection{Contact}
-Institut für Informatik (IAM), Universität Bern \\
-Neubrückstrasse 10, CH-3012 Berne, Switzerland \\
+http://mir.lu \\
+\href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\
 +41 31 631 7637 (Office) \\
 +41 31 631 3355 (Fax) \\
-\href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\
+Institut für Informatik (IAM), Universität Bern \\
+Neubrückstrasse 10, CH-3012 Berne, Switzerland \\
+
 %Birthdate		& October 24, 1980 (Arad, Romania)\\
 %Citizenship		& Romanian \\
-% Name				& Mircea Filip Lungu \\
-% Residence		& Z‰hringerstrasse 78, Bern\\
-% Mobile			& +41 78 904 3235\\
+%Name				& Mircea Filip Lungu \\
+%Residence		& Z‰hringerstrasse 78, Bern\\
+%Mobile			& +41 78 904 3235\\
 
-\url{http://mir.lu} \\
+
 
 
 % \input{refs}
