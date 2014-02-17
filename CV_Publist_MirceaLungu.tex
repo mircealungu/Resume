@@ -4,10 +4,13 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{a4wide}
+\usepackage{stringstrings}
 \usepackage{titling}
 \usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=black,citecolor= black,urlcolor= black]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{ifthen}
+\usepackage{fancyhdr}
+
 \newboolean{longversion}
 \setboolean{longversion}{false} % toggle for long/short version
 % \setboolean{longversion}{true} % toggle for long/short version
@@ -19,7 +22,7 @@
 	\newcommand{\longcv}[1]{}
 	\newcommand{\shortcv}[1]{#1}
 }
-\newcommand{\period}{(since 2007)}
+% \newcommand{\period}{(since 2007)}
 \renewcommand{\labelitemi}{---}% {$\bullet$}
 
 \newcommand{\nbc}[3]{
@@ -38,14 +41,24 @@
 \begin{document}
 \longcv{\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}}
 \shortcv{\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}}
+
+
 \pagestyle{myheadings}
+\pagestyle{fancy}
+
 \thispagestyle{plain}
-\markright{Mircea F. Lungu --- CV --- \today}
+
+% \markright{Mircea F. Lungu --- CV --- \today}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+\lfoot{M.F. Lungu, CV}
+
 \posttitle{\par\end{center}\vspace{-0.8cm}}
 \date{\small http://mir.lu/cv}
 \maketitle
 
-
+\thispagestyle{empty}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -54,7 +67,7 @@
 % \vspace{0.5cm}
 
 
-\newcommand{\cvsection}[1]{\section*{#1}\vspace{-0.75em}\hrule\vspace{1em}}
+\newcommand{\cvsection}[1]{\section*{\capitalizetitle{#1}}\vspace{-0.75em}\hrule\vspace{1em}}
 
 
 % Empirical Software Engineering, 
@@ -139,23 +152,35 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Funded Research Projects}
+\begin{tabular}{p{15cm}}
+	Agile Software Assessment is a project funded by the Swiss National Science Foundation (SNSF project \# 200020-144126/1). Funding:	650,000.ó SFr. Period:	Jan 1, 2013 - Dec. 30, 2015
+\end{tabular}
+
+
 \input{professional-activities}
 
 \newpage
 \input{awards}
 \input{invited}
 
-\newcommand {\lecture}[3]{{\small #3} & {\bf #1} \\ & #2 \vspace{0.7em}\\ }
+% \newcommand {\lecture}[3]{{\small #3} & {\bf #1} \\ & #2 \vspace{0.7em}\\ }
+\newcommand {\lecture}[3]{\item {\em #1}\\#2, #3 }
+\newcommand {\ub}{University of Bern}
+\newcommand {\ul}{University of Lugano}
+\newcommand {\msc}{MSc, }
+\newcommand {\bsc}{BSc, }
 
-\cvsection{Teaching (Undergraduate and Graduate)}
+\cvsection{Lecturing}
 \begin{enumerate}
-	\item {\em Software Engineering}\\ 2013 U. Berne --- Lecturer.
-	\item {\em Compiler Construction}\\ 2013, U. Berne --- Lecturer.
-	\item {\em Concurrency: State Models and Design Patterns}\\ 2012, U. Berne --- Lecturer.
-	\item {\em Software Design and Evolution}\\ 2011, U. Berne --- Lecturer.
-	\item {\em Principles of GUI Design}\\ 2010, U. Lugano --- Lecturer.
-	\item {\em Human Computer Interaction}\\ 2008, U. Lugano --- Lecturer.
-	\item {\em Programming Fundamentals (I+II)}\\ 2004 -- 2007, U. Lugano --- Teaching Assistant.
+	\lecture{Software Engineering}{\bsc \ub}{2013 -- 2014, Fall}
+	\lecture {Compiler Construction}{\msc \ub}{2012 -- 2013, Spring}
+	\lecture {Concurrency: State Models and Design Patterns}{\msc \ub}{2012--2013, Fall}
+	\lecture {Software Design and Evolution}{\msc \ub}{2011--2012, Spring}
+	\lecture {Principles of GUI Design}{\bsc \ul}{\bsc 2010 -- 2011, Spring}
+	\lecture {Human Computer Interaction}{\bsc \ul}{2008}
+	\lecture {Programming Fundamentals (I+II)}{\bsc \ul}{2005 -- 2007, (Teaching Assistant)}
+
 \end{enumerate}
 
 
@@ -237,46 +262,49 @@ Mircea Lungu. \emph{Reverse Engineering Software Ecosystems}. PhD Thesis, Univer
 
 
 % ==========================================================
-\subsubsection*{Other publications}
-\begin{enumerate}
+% \subsubsection*{Other publications}
+% \begin{enumerate}
 
-\item 
-%\fbox{$\star$}
-Mircea Lungu and Oscar Nierstrasz,
-``Recovering Software Architecture with Softwarenaut,''
-{\it ERCIM News},
-vol. 88,
-January 2012.
+% \item 
+% %\fbox{$\star$}
+% Mircea Lungu and Oscar Nierstrasz,
+% ``Recovering Software Architecture with Softwarenaut,''
+% {\it ERCIM News},
+% vol. 88,
+% January 2012.
 
-\item 
-%\fbox{$\star$}
-Mircea Lungu, Oscar Nierstrasz and Niko Schwarz
-``Big Software Data Analysis''
-{\it ERCIM News},
-vol. 89,
-April 2012.
+% \item 
+% %\fbox{$\star$}
+% Mircea Lungu, Oscar Nierstrasz and Niko Schwarz
+% ``Big Software Data Analysis''
+% {\it ERCIM News},
+% vol. 89,
+% April 2012.
 
-\end{enumerate}
+% \end{enumerate}
 
 
-\cvsection{Even More Stuff} % (fold)
+\cvsection{Personal Information} % (fold)
 \label{sec:further_relevant_information}
 
 \begin{tabular}{p{3cm}l}
-Hobbies			& Triathlon\\
-Languages		& Romanian, English, French, Italian, German.
+Languages		& Romanian, English, French, Italian, German \\
+Hobbies			& Triathlon
+
 
 \end{tabular}
 
 % section further_relevant_information (end)
 
 \cvsection{Contact}
-http://mir.lu \\
-\href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\
-+41 31 631 7637 (Office) \\
-+41 31 631 3355 (Fax) \\
+\begin{tabular}{p{10cm}}
+
 Institut für Informatik (IAM), Universität Bern \\
 Neubrückstrasse 10, CH-3012 Berne, Switzerland \\
++41 31 631 7637 (Office) \\
++41 31 631 3355 (Fax) \\
+\href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\ \\
+\end{tabular}
 
 %Birthdate		& October 24, 1980 (Arad, Romania)\\
 %Citizenship		& Romanian \\
