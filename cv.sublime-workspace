@@ -63,7 +63,7 @@
 			"file": "invited.tex",
 			"settings":
 			{
-				"buffer_size": 1246,
+				"buffer_size": 1248,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +71,7 @@
 			"file": "/Users/mircea/personal/applications/teaching.tex",
 			"settings":
 			{
-				"buffer_size": 7856,
+				"buffer_size": 10650,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "professional-activities.tex",
 			"settings":
 			{
-				"buffer_size": 3239,
+				"buffer_size": 3330,
 				"line_ending": "Unix"
 			}
 		},
@@ -318,6 +318,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Oscar N",
+			"National Student",
 			"ACM SI",
 			"Event ",
 			"Invited Spea",
@@ -443,9 +445,7 @@
 			"or in sm",
 			"smalltalk",
 			">>>>>",
-			"thus it has",
-			"classscore",
-			"a the sum"
+			"thus it has"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -474,7 +474,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -526,7 +526,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 828.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -536,15 +536,15 @@
 					"file": "invited.tex",
 					"settings":
 					{
-						"buffer_size": 1246,
+						"buffer_size": 1248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1014,
-								1014
+								828,
+								828
 							]
 						],
 						"settings":
@@ -553,7 +553,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 458.0,
+						"translation.y": 512.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -563,15 +563,15 @@
 					"file": "/Users/mircea/personal/applications/teaching.tex",
 					"settings":
 					{
-						"buffer_size": 7856,
+						"buffer_size": 10650,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4301,
-								4301
+								0,
+								0
 							]
 						],
 						"settings":
@@ -579,7 +579,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2975.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -589,15 +589,15 @@
 					"file": "professional-activities.tex",
 					"settings":
 					{
-						"buffer_size": 3239,
+						"buffer_size": 3330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1267,
-								1267
+								1722,
+								1722
 							]
 						],
 						"settings":
@@ -606,7 +606,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1541.0,
+						"translation.y": 1131.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -690,11 +690,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"app",
+				"/Users/mircea/personal/applications/application-package.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
