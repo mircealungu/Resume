@@ -1,8 +1,11 @@
+%!TEX root = CV_Publist_MirceaLungu.tex
 \newcommand {\conf}[3]{ $^{ #2}$ #1  & #3  \\}
+\newcommand {\event}[4]{$^{ #2}$ #1  & #3 \\ & {\em \small #4} \vspace {1em}\\}
+
 \newcommand {\track}[1]{ \emph{(#1 Track)}}
 \newcommand {\tdtrack}{\track{TD} }
 \newcommand {\eratrack}{\track{ERA} }
-\newcommand {\tablesection}[1]{\\ \\ \multicolumn{1}{l}{\bf  #1} & \vspace{0.5em}\\}
+\newcommand {\tablesection}[1]{\\ \\ & \multicolumn{1}{l}{\bf \large  #1} \vspace{0.5em}\\}
 \newcommand {\contrib}[1]{\hspace{1em} #1\\}
 
 
@@ -12,10 +15,11 @@
 
 
 \tablesection{Project Writer}
-\conf{ASA}{`13}{\href{http://p3.snf.ch/Project-144126}{Agile Software Assessment} -- project co-written with Oscar Nierstrasz funded by the Swiss NSF (project \# 200020-144126/1)}
+
+	\conf{ASA}{`13}{\href{http://p3.snf.ch/Project-144126}{Agile Software Assessment} -- project co-written with Oscar Nierstrasz funded by the Swiss NSF (project \# 200020-144126/1)}
 
 
-\tablesection{External Reviewer}
+\tablesection{External Expert}
 
 	\conf{NWO}{}{Netherlands Organisation for Scientic Research}
 	\conf{EU}{}{The FP7 Programme of the European Commission}
@@ -32,15 +36,28 @@
 	\conf{WCRE}{`11}
 	{International Conference on Reverse Engineering \tdtrack}
 
-\tablesection{Event Co-Organizer}
+\tablesection{Co-Organizer}
  
-	\conf{CHOOSE Forum}{`12, `13, `14}{The main yearly event of the CHOOSE Society (with Tudor Girba and Michele Lanza)}
+	\event
+		{CHOOSE Forum}
+		{`12, `13, `14}
+		{The Forums are events that bring togehter the SE Industry and Research}
+		{Co-organizer with Tudor Girba and Michele Lanza}
 
-	\conf{WEA}{`13, `14} {Workshop on Software Ecosystem Architectures (co-creator with Jens Knodel)}
+	\event
+		{WEA}{`13, `14} 
+		{International Workshop on Software Ecosystem Architectures}
+		{Co-creator with Jens Knodel from the Fraunhofer Institute}
 
-	\conf{SATTOSE}{`13} {Seminar on Advanced Techniques in Software Engineering (with Oscar Nierstrasz)}
+	\event
+		{SATTOSE}{`13} 
+		{Seminar on Advanced Techniques in Software Engineering}
+		{Co-organized with Oscar Nierstrasz)}
 
-	\conf{USI PhD Talks}{`06 - `09}{Weekly meeting of PhD students for scientific presentation (with Cyrus Hall)}
+	\event
+		{USI PhD Talks}{`06 - `09}
+		{Informal meeting of PhD students discussing variated research topics}
+		{Co-organized with Cyrus Hall}
 
 
 \tablesection{Journal Reviewer}
@@ -60,7 +77,7 @@
 
 \tablesection{Conference PC Member}
 
-	\conf{OOPSLA}{`13}{ACM SIGPLAN Conference on Systems, Programming, Languages and Applications}
+	\conf{OOPSLA}{`13}{Conference on Systems, Programming, Languages and Applications}
 
 	\conf{ICSE}{`12, `14}{International Conference on Software Engineering \tdtrack}
 
