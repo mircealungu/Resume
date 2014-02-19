@@ -1,0 +1,705 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"include"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"architectu",
+				"architecture"
+			],
+			[
+				"wei",
+				"weightSynthesized"
+			],
+			[
+				"Hiera",
+				"HierarchicalGraph"
+			],
+			[
+				"decoup",
+				"decouple"
+			],
+			[
+				"Ecosstem",
+				"Ecosystem"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "CV_Publist_MirceaLungu.tex",
+			"settings":
+			{
+				"buffer_size": 13851,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "awards.tex",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "invited.tex",
+			"settings":
+			{
+				"buffer_size": 1246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mircea/personal/applications/teaching.tex",
+			"settings":
+			{
+				"buffer_size": 7856,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "professional-activities.tex",
+			"settings":
+			{
+				"buffer_size": 3239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "supervision.tex",
+			"settings":
+			{
+				"buffer_size": 1183,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":b",
+				":0 - BOF"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"Snippet: inclu",
+				"Snippet: #include <…>"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"wrap",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"reposi",
+				"Package Control: Add Repository"
+			],
+			[
+				"pag",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mircea/personal/resume/selected-publications.tex",
+		"/Users/mircea/personal/resume/CV_Publist_MirceaLungu.tex",
+		"/Users/mircea/personal/applications/teaching.tex",
+		"/Users/mircea/academia/scg/lectures-sc-seminar/quiz-spring14.tex",
+		"/Users/mircea/academia/scg/lectures-sc-seminar/quiz-preamble.tex",
+		"/Users/scg/scgbib/scg.bib",
+		"/Users/mircea/academia/scg/lectures-sc-seminar/.git/MERGE_MSG",
+		"/Users/mircea/academia/scg/lectures-sc-seminar/quiz-preamble",
+		"/Users/mircea/bern/gitolite-admin/conf/gitolite.conf",
+		"/Users/mircea/personal/resume/professional-activities.tex",
+		"/Users/mircea/personal/resume/professional-activities.aux",
+		"/Users/mircea/personal/resume/old versions/11-MirceaLungu-CV.tex",
+		"/Users/mircea/personal/resume/MirceaLungu-Resume.tex",
+		"/Users/mircea/personal/resume/supervision.tex",
+		"/Users/mircea/personal/resume/invited.tex",
+		"/Users/mircea/personal/applications/research.tex",
+		"/Users/mircea/personal/resume/awards.tex",
+		"/Users/mircea/scripts/profile",
+		"/Users/mircea/personal/applications/teaching.pdf",
+		"/Users/mircea/personal/applications/.gitignore",
+		"/Users/mircea/personal/applications/.ignore",
+		"/Users/mircea/personal/applications/letter.tex",
+		"/Users/mircea/bern/gitolite-admin/users-mircea-applications/research.tex",
+		"/Users/mircea/bern/gitolite-admin/users-mircea-applications/teaching.tex",
+		"/Users/mircea/bern/gitolite-admin/users-mircea-applications/letter.tex",
+		"/Users/mircea/personal/resume/.gitignore",
+		"/Users/mircea/personal/resume/upload.sh",
+		"/Users/mircea/personal/resume/professional-activities",
+		"/Users/mircea/ada/Playing-with-Python/generate_quiz_polite.pol",
+		"/Users/mircea/ada/Playing-with-Python/generate_quiz.py",
+		"/Users/mircea/projects/polite/README.md",
+		"/Users/mircea/projects/zeeguu-browser/manifest.json",
+		"/Users/mircea/projects/zeeguu-browser/increase_version_no.py",
+		"/Users/mircea/academia/people/nicole/papers-ecosystems-needs-wea/eco-needs-wea.tex",
+		"/Users/mircea/ada/Playing-with-Python/vi",
+		"/Users/mircea/ada/Playing-with-Python/shorten_paragraph.py",
+		"/Users/mircea/academia/people/boris/papers-type-inference-2014/typeInference.tex",
+		"/Users/mircea/academia/people/boris/papers-type-inference-2014/.git/MERGE_MSG",
+		"/Users/mircea/academia/writing/MSR14-Polymorphism/svn-commit.tmp",
+		"/Users/mircea/academia/people/boris/papers-type-inference-2014/scg.bib",
+		"/Users/mircea/academia/writing/MSR14-Polymorphism/related-work.tex",
+		"/Users/mircea/academia/writing/MSR14-Polymorphism/msr2014.tex",
+		"/Users/mircea/projects/zeeguu-web/pushToDock.sh",
+		"/Users/mircea/projects/zeeguu-web/update_dock.sh",
+		"/Users/mircea/academia/writing/MSR14-Polymorphism/main.tex",
+		"/Users/mircea/projects/softwarenaut/dist-scripts/create-mac-distribution.sh",
+		"/Users/mircea/ada/Ada-Lungu.github.io/shorten_paragraph.py",
+		"/Users/mircea/ada/Ada-Lungu.github.io/grid.html",
+		"/Users/mircea/ada/Ada-Lungu.github.io/index.html",
+		"/Users/mircea/ada/Ada-Lungu.github.io/960css/960.css",
+		"/Users/mircea/ada/Ada-Lungu.github.io/demo.html",
+		"/Users/mircea/academia/people/nicole/papers-ecosystems-needs-wea/upstream-results.tex",
+		"/Users/mircea/academia/writing/MSR2012-polymorphism/main.tex",
+		"/Users/mircea/academia/writing/MSR2012-polymorphism/msr2014.tex",
+		"/Users/mircea/Dropbox/Desktop/letter adelaide/letter-adelaide.tex",
+		"/Users/mircea/Dropbox/Desktop/letter-adelaide.tex",
+		"/Users/mircea/Dropbox/Desktop/Zeeguu-Browser/lib/jquery/jquery.js",
+		"/Users/mircea/projects/Zeeguu-Browser/manifest.json",
+		"/Users/mircea/projects/Zeeguu-Browser/lib/jquery/jquery.js",
+		"/Users/mircea/personal/resume/selected-publications.aux",
+		"/Users/mircea/academia/people/nevena/MSR2012-polymorphism/msr2014.tex",
+		"/Users/mircea/personal/resume/student-mentoring.tex",
+		"/Users/mircea/personal/resume/employment-and-education.tex",
+		"/Users/mircea/personal/resume/student-mentoring",
+		"/Users/mircea/personal/resume/employment.tex",
+		"/usr/local/texlive/2012/texmf-dist/tex/latex/umlaute/mac.def",
+		"/Users/mircea/academia/people/nicole/papers-ecosystems-needs-wea/results-section",
+		"/Users/mircea/academia/people/boris/papers-type-inferece-2014/typeInference.tex",
+		"/Users/mircea/scripts/.git/MERGE_MSG",
+		"/Users/mircea/academia/people/jan/papers-indent-parsing-2013/indent-parsing.tex",
+		"/Users/mircea/academia/people/nicole/papers-ecosystems-needs-wea/Bib.bib",
+		"/Users/mircea/academia/people/jan/papers-island-parsing-2013/island-parsing.tex",
+		"/Users/mircea/projects/hikomsys/website/kineticTutorial2.js",
+		"/Users/mircea/academia/people/erik/thesis-aeschlimann/thesis.tex",
+		"/Users/mircea/projects/ZeeGuu/API/zeeguu/api/model.py",
+		"/Users/mircea/Playground/types/printing.c",
+		"/Users/mircea/Playground/types/person.cpp",
+		"/Users/mircea/academia/people/dennis/thesis-schenk/thesis/thesis.tex",
+		"/Users/mircea/bern/gitolite-admin/.git/MERGE_MSG",
+		"/Users/mircea/academia/people/haidar/papers-mining-bugfix-code-changes-2013/scgPaper.tex",
+		"/Users/mircea/academia/people/niko/papers-regex/.git/MERGE_MSG",
+		"/Users/mircea/academia/people/niko/papers-regex/tdfa-regex.tex",
+		"/Users/mircea/Dropbox/Desktop/bad-api",
+		"/Users/mircea/thesis-template/thesis.tex",
+		"/Users/mircea/temp/ant/src/tests/antunit/core/location/src/task/EchoLocation.java",
+		"/Users/mircea/thesis-template/thesis.bib",
+		"/Users/mircea/thesis-haenni/preamble.tex",
+		"/Users/mircea/thesis-haenni/thesis.tex",
+		"/Users/mircea/Dropbox/Apps/PomodoroBox/box.txt",
+		"/Users/mircea/Playground/python/pyglatin.py",
+		"/Users/mircea/academia/people/andrei/papers-moldable-debugger-icse-2014/moldable-debugger.tex",
+		"/Users/mircea/Playground/.git/MERGE_MSG",
+		"/Users/mircea/Playground/java/rmi/RmiServerIntf.java",
+		"/Users/mircea/Playground/java/rmi/RmiClient.java",
+		"/Users/mircea/Playground/java/rmi/RmiServer.java",
+		"/Users/mircea/academia/writing/papers-ecosystems-needs-wea/eco-needs-wea.tex",
+		"/Users/mircea/academia/people/erik/papers-pl1-ecosystem/movies.rb",
+		"/Users/mircea/academia/people/erik/papers-pl1-ecosystem/pl1-ieee.tex",
+		"/Users/mircea/Desktop/Genealogical_tree_of_programming_languages.svg",
+		"/Users/mircea/academia/teaching/lectures-ese/Mircea-Notes.txt",
+		"/Users/mircea/academia/teaching/lectures-sc-seminar/quiz-sept13.tex",
+		"/Users/mircea/academia/teaching/lectures-ei/Examples/fibs.hs",
+		"/Users/mircea/projects/PomodoroBox/README.md",
+		"/Users/mircea/academia/service/wea.github.com/cfp.html",
+		"/Users/mircea/academia/service/wea.github.com/index.html",
+		"/Users/mircea/projects/PomodoroBox/.git/MERGE_MSG",
+		"/Users/mircea/projects/PomodoroBox/script/pom.sh",
+		"/Users/mircea/temp/PoliteSmalltalk/base-image/prepareImage.st",
+		"/Users/mircea/temp/PoliteSmalltalk/base-image/start.sh",
+		"/Users/mircea/temp/PoliteSmalltalk/base-image/get-polite.sh",
+		"/Users/mircea/projects/PomodoroBox/osx/box.sh",
+		"/Users/mircea/temp/lectures-sc-seminar/quiz-sept13.tex",
+		"/Users/mircea/temp/lectures-sc-seminar/quiz.tex",
+		"/Users/mircea/projects/PomodoroBox/osx/install.sh",
+		"/Users/mircea/Playground/c/malloc/pointerporn.c",
+		"/Users/mircea/projects/pomodorobox/INSTALLATION.md",
+		"/Users/mircea/Dropbox/logs/pomodoros.txt",
+		"/Users/mircea/projects/pomodorobox/pom.sh",
+		"/Users/mircea/academia/scg/reviews/papers-indent-parsing-2013/indent-parsing.tex",
+		"/Users/mircea/academia/people/erik/papers-pl1-ecosystem/pl1.tex",
+		"/Users/mircea/Desktop/paper/pl1.tex",
+		"/Users/mircea/academia/writing/papers-moldable-debugger-icse-2014/moldable-debugger.tex",
+		"/Users/mircea/academia/writing/papers-architecture-survey-2013/arch-constr-study.tex",
+		"/Users/mircea/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/mircea/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Eiffel.tmTheme",
+		"/Users/mircea/projects/1pomodoro/android/.gitignore",
+		"/Users/mircea/academia/writing/reports/scg-jb/SCGJB13/scgmiddle.tex",
+		"/Users/mircea/academia/writing/reports/scg-jb/SCGJB13/scg13.tex"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ACM SI",
+			"Event ",
+			"Invited Spea",
+			"Extrern",
+			"Selected Publ",
+			"Publications",
+			"FP7",
+			"Exhibit",
+			"Oscar",
+			"interesting",
+			"pages",
+			"Describe",
+			"Buse08b",
+			"Buse08a",
+			"Buse08c",
+			"Mart13b",
+			"please make",
+			"quiz",
+			"sc-",
+			"sc",
+			"Refere",
+			"pizza",
+			"Co-Or",
+			"Pizza",
+			"PC Member",
+			"Funded",
+			"teaching",
+			"project we de",
+			"awards",
+			"OOPSLA",
+			"WASD",
+			"Tool Demo",
+			"Software Main",
+			"SIGPLAN",
+			"with Jens",
+			"profession",
+			"Member",
+			"subsection",
+			"teaching",
+			"Invited",
+			"Invited Talks",
+			"Context-or",
+			"Context",
+			"Dr. Mircea F",
+			"Co-op",
+			"Name",
+			"courses",
+			"Invited Talks",
+			"Institut f",
+			"Institut fu",
+			"Hobbies",
+			"Dr. Mir",
+			"scgbib",
+			"personal",
+			"mircea",
+			"short",
+			"University E",
+			"Univer",
+			"activi",
+			"voel",
+			"140",
+			"139",
+			"newpage",
+			"Threats",
+			"Unlike",
+			"license of jar",
+			"plethora",
+			"large scale software analy",
+			"Large scale",
+			"unique",
+			"Implementa",
+			"We descri",
+			"We descri=",
+			"We descriu",
+			"We descriup",
+			"match li",
+			"lstlisting",
+			"ifNil:",
+			"The paper",
+			"scg.unibe",
+			"ECOSYSTEM-AWARE TYPE INFERENC",
+			"related work",
+			"MethodBrow",
+			"Implementation",
+			"Related Work",
+			"Ecosystem-Aware",
+			"The paper is orga",
+			"labelled",
+			"method call",
+			"method-call",
+			"also bui",
+			"DiPe10",
+			"DiPen10",
+			"DiPen",
+			"% ",
+			"DiPe10a",
+			"Pent10",
+			"Dipe10",
+			"DiPe10",
+			"is not new",
+			"Related Wo",
+			"software reposit",
+			"likely to have bug",
+			"Related Work",
+			"ecosystem",
+			"send sele",
+			"send a sel",
+			"and count",
+			"74",
+			"Run-time",
+			"False Positive",
+			"False Posi",
+			"e prop",
+			"We propose",
+			"no selector",
+			"GUI",
+			"model systems in",
+			"do we model",
+			"do we mo",
+			"do we model sy",
+			"previous work we",
+			"Related Work",
+			"or in sm",
+			"smalltalk",
+			">>>>>",
+			"thus it has",
+			"classscore",
+			"a the sum"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sec:quantitative",
+			"sec:qualitative",
+			"",
+			"VERTICAL_VECTOR",
+			"pomodorobox",
+			", Brazil",
+			", Chile",
+			", Switzerland",
+			", Germany",
+			", Austria",
+			"advising"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CV_Publist_MirceaLungu.tex",
+					"settings":
+					{
+						"buffer_size": 13851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1552,
+								1552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1365.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "awards.tex",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								774,
+								774
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "invited.tex",
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 458.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/mircea/personal/applications/teaching.tex",
+					"settings":
+					{
+						"buffer_size": 7856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4301,
+								4301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2975.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "professional-activities.tex",
+					"settings":
+					{
+						"buffer_size": 3239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1267,
+								1267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1541.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "supervision.tex",
+					"settings":
+					{
+						"buffer_size": 1183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 446.0
+	},
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
