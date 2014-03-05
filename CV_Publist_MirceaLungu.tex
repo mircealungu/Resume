@@ -1,5 +1,5 @@
 \documentclass[a4paper]{article}
-\usepackage[mac]{inputenc}
+\usepackage[applemac]{inputenc}
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -7,28 +7,8 @@
 \usepackage{stringstrings}
 \usepackage{titling}
 \usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=black,citecolor= black,urlcolor= black]{hyperref}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{ifthen}
 \usepackage{fancyhdr}
-
-\newboolean{longversion}
-\setboolean{longversion}{false} % toggle for long/short version
-% \setboolean{longversion}{true} % toggle for long/short version
-\ifthenelse{\boolean{longversion}}
-{
-	\newcommand{\longcv}[1]{#1}
-	\newcommand{\shortcv}[1]{}
-}{
-	\newcommand{\longcv}[1]{}
-	\newcommand{\shortcv}[1]{#1}
-}
-% \newcommand{\period}{(since 2007)}
-\renewcommand{\labelitemi}{---}% {$\bullet$}
-
-\newcommand{\nbc}[3]{
- {\colorbox{#3}{\bfseries\sffamily\scriptsize\textcolor{white}{#1}}}
- {\textcolor{#3}{\sf\small$\blacktriangleright$\textit{#2}$\blacktriangleleft$}}}
-\newcommand\ml[1]{\nbc{ML}{#1}{violet}} % add more author macros here
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pdfinfo{
@@ -39,16 +19,14 @@
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\longcv{\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}}
-\shortcv{\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}}
-
+\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}
+\author{}
 
 \pagestyle{myheadings}
 \pagestyle{fancy}
 
 \thispagestyle{plain}
 
-% \markright{Mircea F. Lungu --- CV --- \today}
 \renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.0pt}
 
