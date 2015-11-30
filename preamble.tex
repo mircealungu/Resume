@@ -1,0 +1,47 @@
+\usepackage[applemac]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{a4wide}
+\usepackage{stringstrings}
+\usepackage{titling}
+\usepackage[pdftex,colorlinks=true,pdfstartview=FitV,linkcolor=black,citecolor= black,urlcolor= black]{hyperref}
+\usepackage{ifthen}
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pdfinfo{
+  /Title(Curriculum Vitae)
+  /Author(Mircea F. Lungu)
+  /Subject()
+  /Keywords($Id$)
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{\textsf{Mircea F. Lungu, PhD \\Curriculum Vit\ae}}
+\author{}
+
+\pagestyle{myheadings}
+\pagestyle{fancy}
+
+\thispagestyle{plain}
+
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+\lfoot{M.F. Lungu, CV}
+
+\posttitle{\par\end{center}\vspace{-1.0cm}}
+\date{\today\\\small http://mir.lu/cv}
+\maketitle
+
+\thispagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \vspace{-4cm}\includegraphics[width=3cm]{ml-bw.png}
+% \vspace{0.5cm}
+
+
+\newcommand{\cvsection}[1]{\section*{\capitalizetitle{#1}}\vspace{-0.75em}\hrule\vspace{1em}}
