@@ -41,256 +41,31 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \vspace{-4cm}\includegraphics[width=3cm]{ml-bw.png}
-% \vspace{0.5cm}
+\input{_formatting}
 
-
-\newcommand{\cvsection}[1]{\section*{\capitalizetitle{#1}}\vspace{-0.75em}\hrule\vspace{1em}}
-
-
-% Empirical Software Engineering, 
-% Software evolution,
-% Reverse and re-engineering,
-% Programming Languages,
-% Triathlon, Music, Theatre.
-
-\newcommand{\job}[4]{#1 & {\bf #3}\\ & #2\\  &{\small \em#4} \vspace{0.5em} \\}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Experience}
-
-\begin{tabular}{r p{8cm}}
-
-	\job
-	{2015 -- present}
-	{Johann Bernoulli Institute for Mathematics and Computer Science at the University of Groningen}
-	{Assistant Professor}
-	{Teaching and Conducting research in software evolution}
-
-	\job
-	{2010 -- 2015}
-	{Computer Science Institute, University of Bern}
-	{Researcher \& Lecturer}
-	{
-	%Assisting Oscar Nierstrasz in managing the SCG. 
-	Conducting research in SE and programming languages. Mentoring graduate students. Teaching.}
-
-	\job
-	{2012}
-	{Department of Informatics, UC Irvine}
-	{Visiting Researcher}
-	{Collaborative research in software evolution. 
-	% Integrating Softwarenaut and Sourcerer
-	}
-
-
-	\job
-	{2009 -- 2010}
-	{Faculty of Informatics, University of Lugano}
-	{Postdoctoral Researcher}
-	{Conducting research in software evolution. }
-
-	\job 
-	{Jul -- Dec, 2007}
-	{IBM TJ Watson Research Center, NY}
-	{Visiting Researcher}
-	{Visualizing distributed systems with Wim De Pauw}
-
-
-	\job 
-	{2004 -- 2009}
-	{Faculty of Informatics, University of Lugano}
-	{PhD Student}
-	{Conducting research in software evolution, visualization, and large scale software analysis}
-
-
-	\job
-	{2001 -- 2003}
-	{Computervoice Systems, Timisoara, RO}
-	{Software Engineer}
-	{Writing customer management software for several telecommunication companies from the US}
-
-	% \job
-	% {1999 -- 2001}
-	% {Logos Professional Highschool, Timisoara, RO}
-	% {Instructor}
-	% {Teaching Introduction to Programming with Pascal}
-
-\end{tabular}
-
-
-
-
-\newcommand{\degree}[5]{ \hspace{1.6cm}#2 & {\bf #1}\\ & #3\\ &#4\\ &#5\\ \\}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Education}
-
-\begin{tabular}{ r p{11cm}}
-
-\degree
-	{PhD}
-	{2009}
-	{Faculty of Informatics, University of Lugano}
-	{Dissertation: {\em Reverse Engineering Software Ecosystems}}
-	{Advisor: Prof. Dr. Michele Lanza}
-
-\degree
-	{Dipl. -Ing.}
-	{2004}
-	{Computer Science Department, Polytechnic University of Timisoara}
-	{Thesis: \emph{Conformity Strategies - Measures of Software Design Rules}}
-	{Supervisors: Prof. Dr. Radu Marinescu, Dr. Tudor G\^irba}
-
-\end{tabular}
-
-
+\input{experience-long}
 \newpage
-\input{awards}
-\input{invited}
+\input{education}
 
+\input{awards}
+\input{grants}
+
+\input{outreach}
 \newpage
 \input{professional-activities}
 
 
-
-\cvsection{Research Grants}
-
-\begin{tabular}{rp{10.4cm}}
-
-	\conf{DSSC}{`16}{ {\em Information processing underlying the interactions between brain areas}, with M. Vugt, M. Cao, funded by the Centre for Data Science and Systems Complexity of the University of Groningen with EUR 150.000}
-
-	\conf{ASA}{`13}{\href{http://p3.snf.ch/Project-144126}{\em Agile Software Assessment}, written with O. Nierstrasz, was funded by the Swiss NSF with CHF 600.000 (project \# 200020-144126/1)}
-
-\end{tabular}
-
-
-
-
-% \newcommand {\lecture}[3]{{\small #3} & {\bf #1} \\ & #2 \vspace{0.7em}\\ }
-\newcommand {\lecture}[3]{\item {\bf #1}\\#2, #3 }
-\newcommand {\ug}{University of Groningen}
-\newcommand {\ub}{University of Bern}
-\newcommand {\ul}{University of Lugano}
-\newcommand {\msc}{MSc, }
-\newcommand {\bsc}{BSc, }
-
-\cvsection{Undergraduate and Graduate Lectures}
-\begin{enumerate}
-	\lecture{Introduction to Data Science}{\bsc \ug}{Fall 2016}
-	\lecture{Software Engineering (With Project)}{\bsc \ug}{Spring 2016}
-	\lecture{Software Engineering}{\bsc \ub}{Fall 2013, Fall 2014}
-	\lecture {Compiler Construction}{\msc \ub}{Spring 2013}
-	\lecture {Concurrency: State Models and Design Patterns}{\msc \ub}{Fall 2012}
-	\lecture {Software Design and Evolution}{\msc \ub}{Spring 2012, Fall 2014}
-	\lecture {Principles of GUI Design}{\bsc \ul}{\bsc Spring 2011}
-	\lecture {Human Computer Interaction}{\bsc \ul}{2008}
-	\lecture {Programming Fundamentals (I+II)}{\bsc \ul}{2005 -- 2007, (Teaching Assistant)}
-
-\end{enumerate}
-
-
+\input{teaching}
 \input{supervision}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\input{paper-formatting}
-\cvsection{Peer-Reviewed Publications (Selected)}
+\input{publications}
+\input{invited}
 
-\emph{H-index:} 19.
-These and further publications are available online at \url{http://scg.unibe.ch/staff/mircea/pubs} or on \href{http://scholar.google.ch/citations?user=7zx6Cg0AAAAJ}{the Google Scholar website.}
-
-\subsubsection*{Journal Articles}
-	\input{selected-journals}
-
-\subsubsection*{Refereed Papers in International Conferences}
-	\input{selected-conferences}
-
-
-
-
-
+\input{personal}
 
 \newpage
-\newcommand{\reference}[4]{{\bf #1}\\#2\\#3 \\ \\}
-\cvsection{References}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{tabular}{p{10cm}}
-
-\reference
-	{Prof. Dr. Cristina Videira Lopes}
-	{School of Information and Computer Sciences\\University of California Irvine}
-	{lopes@ics.uci.edu}
-
-\reference
-	{Prof. Dr. Mehdi Jazayeri}
-	{Faculty of Informatics\\University of Lugano}
-	{mehdi.jazayeri@usi.ch}
-
-\reference
-	{Prof. Dr. Harald Gall}
-	{Software Architecture Lab\\University of Zurich}
-	{gall@ifi.uzh.ch}
-
-\reference
-	{Prof. Dr. Oscar Nierstrasz}
-	{Software Composition Group\\University of Bern}
-	{oscar@iam.unibe.ch}
-
-\reference
-	{Prof. Dr. Michele Lanza}
-	{Faculty of Informatics\\University of Lugano}
-	{michele.lanza@usi.ch}
+\input{references}
 
 
-
-% \reference
-% 	{Dr. Wim de Pauw}
-% 	{Google Inc.\\Ex: IBM T.J. Watson Research Center}
-% 	{Email: wim@us.ibm.ch}
-
-% \reference
-% 	{Prof. Dr. Radu Marinescu}
-% 	{Faculty of Computer Science\\Polytechnic University of Timisoara}
-% 	{Email: radum@cs.utt.ro}
-
-
-% \reference
-% 	{Dipl. Ing. Calin Sircuta}
-% 	{\\Computervoice Systems, Romania. 
-% \\Email: sircux@computervoice.ro\\}
-	
-\end{tabular}
-
-
-\cvsection{Personal Information} % (fold)
-\label{sec:further_relevant_information}
-
-\begin{tabular}{p{3cm}l}
-	 Languages		& Romanian, English, French, Italian, German \\
-	Sports			& Triathlon, Tennis \\
-	% Volunteering	& Co-Founder of Lifelong Education Foundation
-\end{tabular}
-
-
-
-% \cvsection{Contact}
-% \begin{tabular}{p{10cm}}
-
-% Institut für Informatik (IAM)\\Universität Bern \\
-% Neubrückstrasse 10, CH-3012\\ Bern, Switzerland \\ \\
-% +41 31 631 7637 (Office) \\
-% +41 31 631 3355 (Fax) \\
-% \href{mailto:lungu@iam.unibe.ch}{lungu@iam.unibe.ch} \\ \\
-% \end{tabular}
-
-%Birthdate		& October 24, 1980 (Arad, Romania)\\
-%Citizenship		& Romanian \\
-%Name				& Mircea Filip Lungu \\
-%Residence		& Z‰hringerstrasse 78, Bern\\
-%Mobile			& +41 78 904 3235\\
-
-
-
-
-% \input{refs}
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
